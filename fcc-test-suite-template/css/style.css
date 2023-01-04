@@ -1,0 +1,319 @@
+* {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: absolute;
+  margin: 0 auto;
+  background-color: #eee;
+  font-family: 'Lato', sans-serif;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  min-height: 75px;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo > img {
+  width: 100%;
+  height: 100%;
+  max-width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 20px;
+}
+
+.logo {
+  width: 60vw;
+}
+
+nav {
+  display: flex;
+  width: 30vw;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 1rem;
+  display: list-item;
+
+  text-align: -webkit-match-parent;
+}
+
+header nav ul {
+  display: flex;
+}
+
+.get-started {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 200px;
+  margin-top: 50px;
+  width: 100vw;
+}
+
+.get-started > h2 {
+  margin-bottom: 20px;
+  word-wrap: break-word;
+}
+
+.get-started input {
+  padding: 0.4em;
+  border: 1px solid grey;
+  width: 40%;
+  margin-bottom: 1rem;
+}
+
+.get-started button {
+  padding: 10px;
+  background-color: #f1c40f;
+  color: black;
+  font-weight: 700;
+  font-size: 900;
+  border-radius: 2px;
+  text-align: center;
+}
+
+button:hover {
+  background-color: #fda902;
+  cursor: pointer;
+}
+
+.services {
+  margin-top: 30px;
+  display: block;
+}
+
+.content {
+  display: flex;
+}
+
+.services .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 125px;
+  width: 20vw;
+  font-size: 40px;
+  color: darkorange;
+}
+
+.services .service-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 125px;
+  width: 80vw;
+  padding: 5px;
+}
+
+.services > h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+.content {
+  display: flex;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0em;
+  align-items: center;
+}
+
+.get-started input[type='email'] {
+  max-width: 275px;
+  width: 100%;
+  padding: 5px;
+}
+
+.button {
+  padding: 0 20px;
+  height: 40px;
+  font-size: 1em;
+  font-weight: 900;
+  text-transform: uppercase;
+  border: 3px black solid;
+  border-radius: 2px;
+  background: transparent;
+  cursor: pointer;
+}
+
+.get-started input[type='submit'] {
+  max-width: 150px;
+  width: 100%;
+  height: 30px;
+  margin: 15px 0;
+  border: 0;
+  background-color: #f1c40f;
+}
+
+.video {
+  margin-top: 50px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.video > iframe {
+  max-width: 560px;
+  width: 100%;
+  align-self: center;
+}
+
+iframe {
+  overflow-clip-margin: content-box !important;
+  border-width: 2px;
+  border-style: inset;
+  border-color: initial;
+  border-image: initial;
+  overflow: clip !important;
+}
+
+.plans {
+  margin-top: 60px;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.plans .product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: calc(100% / 3);
+  margin: 10px;
+  border: 1px solid #000;
+  border-radius: 3px;
+}
+
+.product > .level {
+  background-color: #ddd;
+  color: black;
+  padding: 15px 0;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.product > h2 {
+  margin-top: 15px;
+}
+
+.product > ol {
+  margin: 15px 0;
+}
+
+.product > ul > li {
+  padding: 5px 0;
+}
+
+li {
+  list-style: none;
+}
+
+.product > button {
+  border: 0;
+  margin: 15px 0;
+  background-color: #f1c40f;
+  font-weight: 400;
+}
+
+.btn {
+  padding: 0 20px;
+  height: 40px;
+  font-size: 1em;
+  font-weight: 900;
+  text-transform: uppercase;
+  border: 3px black solid;
+  border-radius: 2px;
+  background: transparent;
+  cursor: pointer;
+}
+
+footer {
+  margin-top: 30px;
+  background-color: #ddd;
+  padding: 20px;
+}
+
+ul {
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+footer > ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer > ul > li {
+  padding: 0 10px;
+  list-style: none;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+footer > span {
+  margin-top: 5px;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.9em;
+  color: #444;
+}
